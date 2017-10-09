@@ -6,3 +6,4 @@
 
 - Codigo Python para crear un pago exitosamente con las credenciales activas : create-payment.py
 
+- El requisito es tener un ID de cliente, y un SECRETO para operar, tras crear una app, en este caso denominada "hackathon"
