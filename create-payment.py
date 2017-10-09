@@ -3,8 +3,8 @@ import logging
 
 paypalrestsdk.configure({
   "mode": "sandbox", # sandbox or live
-  "client_id": "Aei_eyReR0PM8caNOXAQb652HWiLrFSHkzvkkScdd2jhPcRQhlWtwpCbmrYoD099PRRnKfr_ZQGNt-XB",
-  "client_secret": "EPd7-vTl7rFqZWf2oS7X8xAVHlU14HziCGZLRY6-ujVUc_gfJ8dXDmDXb5jD9gdiAz67AApz3RErrT9Q" })
+  "client_id": "Aei_eyReR0PM8caNOXAQb652HWiLrFSHkzvkkScdd2jhPcRQhlWtwpCbmrYoD099PRR..........",
+  "client_secret": "EPd7-vTl7rFqZWf2oS7X8xAVHlU14HziCGZLRY6-ujVUc_gfJ8dXDmDXb5jD9gdiAz67AApz3REr......" })
 
 payment = paypalrestsdk.Payment({
     "intent": "sale",
