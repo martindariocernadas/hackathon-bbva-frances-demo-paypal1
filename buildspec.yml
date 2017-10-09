@@ -4,6 +4,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - echo Installing Paypal-REST-SDK
+      - pip install paypalrestsdk
       - echo Compiling the Python code...
       - python create-payment.py
   post_build:
