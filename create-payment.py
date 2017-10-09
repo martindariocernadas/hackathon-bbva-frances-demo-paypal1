@@ -3,8 +3,8 @@ import logging
 
 paypalrestsdk.configure({
   "mode": "sandbox", # sandbox or live
-  "client_id": "Aei_..........",
-  "client_secret": "EPd7-......" })
+  "client_id": "<<ID de cliente>>..........",
+  "client_secret": "<<Secreto de ID>>......" })
 
 payment = paypalrestsdk.Payment({
     "intent": "sale",
